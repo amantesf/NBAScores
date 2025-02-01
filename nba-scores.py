@@ -25,7 +25,7 @@ else:
         team_2 = competitors[1]["team"]["displayName"]
         team_2_score = competitors[1].get("score", "0")
 
-        status = game["status"]["type"]["description"]  # e.g., "Final" or "In Progress"
+        status = game["status"]["type"]["description"] 
 
         print(f"{team_1} ({team_1_score}) vs {team_2} ({team_2_score}) - {status}")
 
